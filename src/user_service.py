@@ -66,3 +66,4 @@ class UserService:
     def _is_valid_email(email: str) -> bool:
         """Basic email validation"""
         return "@" in email and "." in email.split("@")[1]
+        
